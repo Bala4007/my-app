@@ -29,7 +29,7 @@ node{
 		//  do nothing if there is an exception
 	}
    stage('Docker deployment'){
-   sh 'docker run -d -p 8091:8080 --name tomattest saidamo/myweb:0.0.2' 
+   sh 'docker run -d -p 8091:8080 --name tomattest bala4007/myweb:0.0.2' 
    }
 }
 }
